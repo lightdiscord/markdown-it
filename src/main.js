@@ -11,7 +11,7 @@ if (!comment) throw new Error('Flag comment not defined')
 
 const format = {
     [TYPES.Comment]: lines => lines.map(line => line.trim().replace(commentRegExp(comment), '').trim()),
-    [TYPES.Regular]: lines => `${'```'}${language}\n${lines.join('\n')}\n${'```'}`
+    [TYPES.Regular]: lines => `\n${'```'}${language}\n${lines.join('\n')}\n${'```'}\n`
 }
 
 stdin().then(text => {
