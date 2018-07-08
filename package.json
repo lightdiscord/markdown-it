@@ -4,7 +4,7 @@
   "description": "Turn comments into markdown and codes into blocks",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava -v"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/LightDiscord/markdown-it/issues"
   },
-  "homepage": "https://github.com/LightDiscord/markdown-it#readme"
+  "homepage": "https://github.com/LightDiscord/markdown-it#readme",
+  "devDependencies": {
+    "ava": "1.0.0-beta.6",
+    "esm": "^3.0.64"
+  },
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5"
+  }
 }
