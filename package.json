@@ -1,0 +1,23 @@
+{
+  "name": "markdown-it",
+  "version": "1.0.0",
+  "description": "Turn comments into markdown and codes into blocks",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightDiscord/markdown-it.git"
+  },
+  "keywords": [
+    "markdown",
+    "code"
+  ],
+  "author": "LightDiscord <arnaud@lightdiscord.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LightDiscord/markdown-it/issues"
+  },
+  "homepage": "https://github.com/LightDiscord/markdown-it#readme"
+}
