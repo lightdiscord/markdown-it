@@ -1,3 +1,4 @@
 #!/usr/bin/env node
 
-console.log('Markdown-it')
+require = require('esm')(module)
+module.exports = require('./main.js')

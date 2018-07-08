@@ -2,9 +2,12 @@
   "name": "markdown-it",
   "version": "1.0.0",
   "description": "Turn comments into markdown and codes into blocks",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "ava -v"
+  },
+  "bin": {
+    "markdown-it": "./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,8 @@
     "esm": "^3.0.64"
   },
   "dependencies": {
-    "escape-string-regexp": "^1.0.5"
+    "command-line-args": "^5.0.2",
+    "escape-string-regexp": "^1.0.5",
+    "get-stdin": "^6.0.0"
   }
 }
