@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/LightDiscord/markdown-it#readme",
   "devDependencies": {
-    "ava": "1.0.0-beta.6",
-    "esm": "^3.0.64"
+    "ava": "1.0.0-beta.6"
   },
   "dependencies": {
     "command-line-args": "^5.0.2",
     "escape-string-regexp": "^1.0.5",
-    "get-stdin": "^6.0.0"
+    "get-stdin": "^6.0.0",
+    "esm": "^3.0.64"
   }
 }
