@@ -10,7 +10,7 @@ const { language = "", comment } = cli([
 if (!comment) throw new Error('Flag comment not defined')
 
 const format = {
-    [TYPES.Comment]: lines => lines.map(line => line.trim().replace(commentRegExp(comment), '').trim()),
+    [TYPES.Comment]: lines => lines.map(line => line.trim().replace(commentRegExp(comment), '').trim()).join`\n`,
     [TYPES.Regular]: lines => `\n${'```'}${language}\n${lines.join('\n')}\n${'```'}\n`
 }
 
